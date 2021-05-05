@@ -1,0 +1,85 @@
+.keyb{
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	height: auto;
+	background-color: pink;
+}
+.keyb{
+	padding: 20px 0px 20px 0px;
+}
+.row1{
+	/*height: 50px;*/
+}
+.boxx{
+	margin: 5px 5px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 3px 3px black;
+	display: inline-block;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.boxx:hover{
+	background-color: grey;
+	transition: 0.2s;
+	/*margin: 3px 3px;
+	height: 42px;
+	width: 42px;*/
+}
+.boxx:active{
+	transition: 0.2s;
+	background-color: black;
+	color: pink;
+	box-shadow: 0px 0px;
+}
+.boxx p{
+	/*line-height: 10px;
+	padding-left: 10px;*/
+	/*padding: 0px 0px 0px 11px;*/
+	line-height: 8px;
+	text-align: center;
+	font-size: 16px;
+}
+.unselect{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.tabb{
+	width: 84px !important;
+}
+.caps{
+	width: 92px !important;
+}
+.caps p{
+	/*padding: 0px 0px 0px 5px !important;*/
+}
+.shift{
+	width: 120px !important;	
+}
+.enter{
+	width: 90px !important;	
+}
+.space{
+	width: 200px !important;
+}
+.arrow-left{
+	margin-bottom: 0px !important;
+	height: 19px;
+	width: 42px;
+}
+.arrow-up{
+	
+}
+.arrow-down{
+	
+}
+.arrow-right{
+	
+}
